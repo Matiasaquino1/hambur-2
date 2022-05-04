@@ -1,0 +1,129 @@
+*{  
+    margin:0;
+    padding:0;
+}
+a{text-decoration:none;}
+
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../imagenes/capas/Group\ 1.png");
+	background-position: center; 
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+.nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+.logo{
+	margin-left: 0px;
+}
+.menu{
+	margin-right: 50px;
+	text-align: right;
+}
+.menu-contact{
+	margin-bottom: 30px;
+}
+.menu-contact img{
+	vertical-align: middle;	
+}
+.menu-contact span{
+	margin-left: 10px;
+	font-family: 'Montserrat', sans-serif;
+ 	font-size: 20px;
+ 	color: #3d2514; 
+ 	font-weight: 700;
+ 	vertical-align: middle;	
+}
+.menu-list{
+
+}
+.menu-list ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+}
+.menu-list ul li a{
+	font-family: Arial, Helvetica, sans-serif;
+ 	font-size: 18px;
+ 	color: #3d2514;
+ 	font-weight: 100;
+ 	letter-spacing: 5px;
+ 	transition: all 0.25s;
+}
+.menu-list ul li a:hover{
+	color: #663d00;
+	font-size: 20px;
+	font-weight: 500;
+	color:crimson;
+	letter-spacing: 7px;
+	transition: all 0.2s;
+
+}
+
+.body1{
+	width: 100%;
+	padding: 100px 0px 0px 0px;
+}
+.category{
+	display: flex;
+	width: 100%;
+}
+
+.body2{
+	width: 100%;
+    display: flex;
+    margin-top: 65px;
+    
+}
+.galeria-body2{
+	display: flex;
+	margin-top: 65px;
+}
+
+.slider{
+	width:100%;
+	padding: 155px 0px 130px 0px;
+
+}
+.slider-img{
+    width: 100%;
+}
+
+.form {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../imagenes/capas/Group\ 5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-img{
+  width: 500%;
+  height: 700%;	
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer{
+	width: 100%;	
+}
+.footer-content{
+	width: 100%;
+	height: 455px;
+	background-position: center; 
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
